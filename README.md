@@ -16,10 +16,13 @@
 ## 📝 Descrição
 
 <p align="justify">
-Doenças pulmonares são caracterizadas pelo avanço rápido e consequente necessidade de diagnóstico precoce. Nesse contexto, a Inteligência Artificial, especialmente desde o período de pandemia do COVID-19, emergiu como uma possível ferramenta para auxiliar no diagnóstico assistido de infecções pulmonares. Partindo disso, o presente trabalho busca classificar imagens de raios X em “Covid” e “Normal”, a partir de dados disponíveis da plataforma Kaggle. Nesse aspecto, a classificação das imagens consistiu em três principais etapas: Extração de features a partir das imagens originais – por meio da aplicação de filtros –, treinamento de um modelo de classificação Random Forest, e explicabilidade desse a partir do módulo SHapley Additive ExPlanations (SHAP). Como resultado, obteve-se um modelo com acurácia de 97,73%, sensibilidade de 96,67% e precisão de 100%, do qual foi possível extrair a importância por pixel de cada filtro e identificar as regiões mais relevantes para a previsão. 
+Doenças pulmonares são caracterizadas pelo avanço rápido e consequente necessidade de diagnóstico precoce. Nesse contexto, a Inteligência Artificial, especialmente desde o período de pandemia do COVID-19, emergiu como uma possível ferramenta para auxiliar no diagnóstico assistido de infecções pulmonares. Partindo disso, o presente trabalho busca classificar imagens de raios X em “Covid” e “Normal”, a partir de dados disponíveis da plataforma <em>Kaggle</em>. Nesse aspecto, a classificação das imagens consistiu em três principais etapas: Extração de <em>features</em>em a partir das imagens originais – por meio da aplicação de filtros –, treinamento de um modelo de classificação Random Forest, e explicabilidade desse a partir do módulo <em>SHapley Additive ExPlanations</em> (SHAP). Como resultado, obteve-se um modelo com acurácia de 97,73%, sensibilidade de 96,67% e precisão de 100%, do qual foi possível extrair a importância por pixel de cada filtro e identificar as regiões mais relevantes para a previsão. 
 </p>
 
+<!---
 ## 📔 Notebooks e arquivos do projeto
+--->
+
 ## 🖇️ Informações técnicas
 * Linguagem de programação: `Python 3.9`.
 * Software:  `Visual Studio Code`, `Jupyter Notebook`.
@@ -36,8 +39,16 @@ Os procedimentos realizados neste trabalho podem ser executados em compiladores 
 ## 😁 Conclusão
 --->
 
+## 📚 Referências
+**[1]** SAYGILI, A. A new approach for computer-aided detection of coronavirus (COVID-19) from CT and X-ray images using machine learning methods. Applied Soft Computing, v. 105, p. 107323, jul. 2021. 
+
+**[2]** ISMAEL, A. M.; ŞENGÜR, A. Deep learning approaches for COVID-19 detection based on chest X ray images. Expert Systems with Applications, v. 164, p. 114054, fev. 2021. 
+
+**[3]** ONG, J. H.; GOH, K. M.; LIM, L. L. Comparative Analysis of Explainable Artificial Intelligence for COVID-19 Diagnosis on CXR Image. 13 set. 2021.  
+
 ## 🧠 Contribuições dos Colaboradores
 **Desenvolvimento:** Júlia Guedes Almeida dos Santos & Yasmin Barbosa Shimizu
+
 **Orientação e Revisão:** Prof. Dr. James Moraes de Almeida
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172424779?v=4" width=115><br><sub> Júlia Guedes </sub>](https://github.com/JuliaGuedesASantos)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9504021537643847)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/j%C3%BAlia-guedes-546542283/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171518829?v=4" width=115><br><sub>Yasmin Shimizu</sub>](https://github.com/yasminbshimizu)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=B946BED44B4E2F555F7290AF3E8AF4F3#)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/yasminbshimizu/)
