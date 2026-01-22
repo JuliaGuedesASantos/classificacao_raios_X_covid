@@ -1,5 +1,5 @@
 # <p align="center">  Tratamento e classificação de imagens de raios X pulmonares para detecção de COVID-19 🫁</p>
-<p align="center"> <b>Júlia Guedes Almeida dos Santos \& Yasmin Barbosa Shimizu </b> <p>
+<p align="center"> <b>Júlia Guedes Almeida dos Santos & Yasmin Barbosa Shimizu </b> <p>
 <p align="center"> Repositório destinado a armazenar o trabalho desenvolvido na disciplina de "Processamento de Linguagem Natural e de Imagens" para a classificação de imagens de Raios X.
  </p>
 
@@ -18,7 +18,8 @@
 ## 🖇️ Informações técnicas
 * Linguagem de programação: `Python 3.9`
 * Software:  `Visual Studio Code`, `Jupyter Notebook`
-* Bibliotecas e Módulos: `random`, `functools`, `itertools`, `string`
+* Bibliotecas e Módulos: `os`, `glob`, `pandas`, `numpy`, `matplotlib`, `cv2`, `seaborn`, `skimage`, `sklearn`
+  
 
 ### Como executar o algoritmo?
 Os algoritmos genéticos desenvolvidos neste trabalho podem ser executados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Para tal, é necessário:
@@ -40,6 +41,6 @@ Os algoritmos genéticos desenvolvidos neste trabalho podem ser executados em co
 
 **Orientação e Revisão:** Prof. Dr. James Moraes de Almeida
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172424779?v=4" width=115><br><sub> Júlia Guedes </sub>](https://github.com/JuliaGuedesASantos)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9504021537643847)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/j%C3%BAlia-guedes-546542283/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171518829?v=4" width=115><br><sub>Yasmin Shimizu</sub>](https://github.com/yasminbshimizu)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>(https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=B946BED44B4E2F555F7290AF3E8AF4F3#)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/yasminbshimizu/)
-| :---: | :---: | :---: | 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/172424779?v=4" width=115><br><sub> Júlia Guedes </sub>](https://github.com/JuliaGuedesASantos)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9504021537643847)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/j%C3%BAlia-guedes-546542283/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171518829?v=4" width=115><br><sub>Yasmin Shimizu</sub>](https://github.com/yasminbshimizu)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=B946BED44B4E2F555F7290AF3E8AF4F3#)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/yasminbshimizu/)
+| :---: | :---: |
 
